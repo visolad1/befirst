@@ -1,0 +1,52 @@
+.cef-about{
+    width: 100%;
+    position: relative;
+    height: 447px;
+    background-color: #FFF8A7;
+    padding: 27px 0 0 91px;
+    margin-top: 20px;
+    border-radius: 30px;
+}
+
+.cef-title{
+    color: var(--black);
+    font-family: 'Baloo 2', sans-serif;
+    font-size: 70px;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.cef-main-text{
+    width: 50%;
+    color: var(--black);
+    font-family: 'Exo 2', sans-serif;
+    font-size: 23px;
+    margin-bottom: 21px;
+}
+
+.cef-hands-img{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.cef-form{
+    padding: 24px 100px;
+    background-color: var(--primary-orange);
+    position: relative;
+    top: -30px;
+    border-radius: 30px;
+}
+
+.name-inputs{
+    display: flex;
+    gap: 33px;
+}
+
+.input{
+    width: 100%;
+    border-radius: 4px;
+    background-color: var(--white);
+    padding: 15px 20px;
+}
