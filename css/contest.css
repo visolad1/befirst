@@ -1,0 +1,85 @@
+.contest-main-content{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.contest-main-content-title{
+    color: #000;
+    font-family: 'Baloo 2', sans-serif;
+    font-size: 70px;
+    font-weight: 800;
+    margin-bottom: 10px;
+    margin-top: 42px;
+}
+
+.contest-main-content-text{
+    width: 339px;
+    color: #000;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 23px;
+    margin-bottom: 37px;
+}
+
+.contest-main-content-img{
+    width: 800px;
+    height: 441px;
+}
+
+.contest-main-cards{
+    width: 100%;
+    display: flex;
+    gap: 40px;
+    row-gap: 60px;
+    flex-wrap: wrap;
+    margin-top: 52px;
+    margin-bottom: 80px;
+}
+
+.contest-main-card{
+    width: calc(100% / 3 - 40px);
+    padding: 16px 18px 22px 18px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-blue{
+    background-color: var(--primary-blue);
+    color: var(--white);
+}
+
+.contest-main-card-title{
+    width: 235px;
+    font-family: 'Inter', sans-serif;
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 12px;
+    margin-top: 10px;
+}
+
+.contest-main-card-text{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.contest-main-card-btn{
+    width: 100%;
+    border: 1px solid var(--white);
+    height: 60px;
+    border-radius: 10px;
+}
+
+.card-black{
+    justify-content: flex-end;
+    color: var(--white);
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.6) 40%, transparent 100%), url('../imgs/contest-card-black-img.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.card-yellow{
+    background-color: var(--primary-orange);
+}
