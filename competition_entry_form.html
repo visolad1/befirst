@@ -7,8 +7,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700&family=Exo+2:wght@400;500;700;800;900&family=Exo:ital,wght@0,700;0,800;1,400&family=Inter:wght@400;500;600;700;900&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Abel&family=Baloo+2:wght@400;500;600;700&family=Exo+2:wght@400;500;700;800;900&family=Exo:ital,wght@0,700;0,800;1,400&family=Inter:wght@400;500;600;700;900&display=swap"
         rel="stylesheet">
+
 
     <link rel="stylesheet" href="./css/index.css">
     <title>Befirst</title>
@@ -42,7 +43,6 @@
         </div>
     </nav>
 
-
     <main class="cef-content">
         <div class="container">
             <div class="cef-about">
@@ -64,7 +64,44 @@
                     <input type="name" class="input" placeholder="Фамилия: ">
                 </div>
                 <input type="number" class="input" placeholder="Лет: ">
-                <input type="text" class="input" placeholder="Категория конкурс: ">
+
+                <div class="select-wrapper">
+                    <select name="competition-category" id="competition-category" class="select">
+                        <option value="option1" class="select-option">Категория конкурс:</option>
+                    </select>
+                </div>
+
+                <div class="select-wrapper">
+                    <select name="competition-city" id="competition-city" class="select">
+                        <option value="option1" class="select-option">Город:</option>
+                    </select>
+                </div>
+
+                <input type="text" class="input" placeholder="Телефон: ">
+
+                <div class="gender-input-wrapper">
+                    <input type="radio" name="gender" value="female" class="gender-input-radio" id="female">
+                    <label class="gender-input-label" for="female">
+                        <img src="./imgs/cef-input-radio-girl.svg" alt="girl icon" class="gender-label-img">
+                    </label>
+
+                    <input type="radio" name="gender" value="male" class="gender-input-radio" id="male">
+                    <label class="gender-input-label" for="male">
+                        <img src="./imgs/cef-input-radio-boy.svg" alt="boy icon" class="gender-label-img">
+                    </label>
+                </div>
+
+                <div>
+                    <textarea name="cef-comments" id="cef-comments" cols="30" rows="10" class="cef-comments-textarea"
+                        placeholder="Ваш комментарий..."></textarea>
+                    <label for="remember-checkbox" class="remember-checkbox">
+                        <input type="checkbox" class="remember-checkbox" name="remember-checkbox"
+                            id="remember-checkbox"> Запомнить
+                    </label>
+                </div>
+
+                <button type="submit" class="btn-blue cef-btn">Окей</button>
+
             </form>
 
         </div>
@@ -118,4 +155,4 @@
 
 </html>
 
-<!-- Compotition entry form -> cef -->
+<!-- Competition entry form -> cef -->

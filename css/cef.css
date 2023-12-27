@@ -1,3 +1,7 @@
+.cef-content{
+    filter: drop-shadow(0px 17px 40px rgba(0, 0, 0, 0.12));
+}
+
 .cef-about{
     width: 100%;
     position: relative;
@@ -37,6 +41,10 @@
     position: relative;
     top: -30px;
     border-radius: 30px;
+    font-family: 'Abel', sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
 }
 
 .name-inputs{
@@ -44,9 +52,78 @@
     gap: 33px;
 }
 
-.input{
+.input, .select-wrapper, .cef-comments-textarea{
     width: 100%;
     border-radius: 4px;
     background-color: var(--white);
     padding: 15px 20px;
+    color: #666666;
+}
+
+.input::placeholder, .cef-comments-textarea::placeholder{
+    color: #666666; 
+    opacity: 1;
+}
+
+.select-wrapper{
+    background-color: #fff;
+}
+
+.select{
+    width: 100%;
+}
+
+.gender-input-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 43px;
+}
+
+.gender-input-radio {
+    width: 57px;
+    display: none;
+}
+
+.gender-label-img{
+    width: 56px;
+    height: 60px;
+}
+
+.gender-input-label {
+    position: relative;
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 21px;
+    align-items: center;
+}
+
+.gender-input-radio:checked+.gender-input-label::before {
+    width: 25px;
+    height: 29px;
+    content: url('../imgs/checkbox-checked-icon.svg');
+}
+
+.gender-input-radio:not(:checked)+.gender-input-label::before {
+    width: 25px;
+    height: 29px;
+    content: url('../imgs/checkbox-icon.svg');
+}
+
+.cef-comments-textarea{
+    resize: none;
+    margin-bottom: 12px;
+}
+
+.remember-checkbox{
+    display: flex;
+    gap: 10px;
+    font-size: 11px;
+    font-family: 'Abel', serif;
+}
+
+.cef-btn{
+    width: 121px;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px 35px;
 }
