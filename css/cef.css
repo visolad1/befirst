@@ -127,3 +127,12 @@
     font-weight: 600;
     padding: 10px 35px;
 }
+
+.cef-bc-img{
+    width: 50%;
+    height: 723px;
+    position: absolute;
+    z-index: -1;
+    top: 30%;
+    right: -20%;
+}
