@@ -1,0 +1,80 @@
+.gallery-content-about{
+    width: 100%;
+    height: 385px;
+    background-image: url('../imgs/gallery-bc-img.png');
+    background-repeat: no-repeat;
+    padding: 20px 80px;
+    margin-top: 20px;
+    margin-bottom: 70px;
+}
+
+.gallery-content-about-text{
+    width: 443px;
+}
+
+.gallery-content-about{
+    display: flex;
+    justify-content: space-between;
+}
+
+.gallery-content-about p, .gallery-content-about h1{
+    width: 100%;
+}
+
+.gallery-search-wrapper{
+    position: relative;
+}
+
+.gallery-search-icon{
+    width: 33px;
+    height: 33px;
+    position: absolute;
+    left: 8px;
+    top: 7px;
+}
+
+.input-search {
+    width: 457px;
+    height: 47px;
+    background-color: #fff;
+    border-radius: 50px;
+    padding-left: 50px;
+}
+
+.search_button{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 134px;
+    margin-top: 27px;
+}
+
+.gallery-content-about-btn{
+    width: 359px;
+    border-radius: 15px;
+}
+
+.gallery-cards{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 41px;
+    gap: 32px;
+    margin-bottom: 92px;
+}
+
+.gallery-card{
+    width: calc(100% / 3 - 32px);
+}
+
+.gallery-card-title{
+    font-size: 23px;
+    font-family: 'Exo', sans-serif;
+    font-weight: 600;
+    margin-bottom: 18px;
+    color: #494949;
+}
+
+.gallery-card-img{
+    width: 100%;
+}

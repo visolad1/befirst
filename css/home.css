@@ -62,13 +62,10 @@
     bottom: 0;
 }
 
-.title{
+.home-title{
     width: 824px;
-    font-size: 70px;
-    font-weight: 800;
     color: var(--primary-text-color);
     margin-bottom: 22px;
-    font-family: 'Baloo 2', sans-serif;
 }
 
 .content-logo{

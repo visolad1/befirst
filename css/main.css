@@ -138,3 +138,17 @@ legend {
     background-color: var(--primary-blue);
     border-radius: 5px;
 }
+
+.title{
+    color: #000;
+    font-family: 'Baloo 2', sans-serif;
+    font-size: 70px;
+    font-weight: 800;
+}
+
+.content-text{
+    width: 50%;
+    color: var(--black);
+    font-family: 'Exo 2', sans-serif;
+    font-size: 23px;
+}
