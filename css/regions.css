@@ -1,0 +1,130 @@
+.regions-content{
+    background-image: url('../imgs/regions-bc-img.png');
+    background-repeat: no-repeat;
+    background-position: cover;
+    padding-top: 48px;
+    height: 100%;
+}
+
+.regions-content-title{
+    margin-bottom: 109px;
+}
+
+.regions-teble{
+    width: 100%;
+    font-family: 'Abel', serif;
+    border-collapse: collapse;
+}
+
+td,
+th {
+    border: 1px solid black;
+}
+
+tr {
+    display: flex;
+}
+
+
+.table-header {
+    color: var(--white);
+    background-color: var(--primary-blue);
+}
+
+.table-num, .table-header:first-child{
+    display: block;
+    width: 67px;
+    height: 67px;
+    text-align: center;
+    padding-top: 16px;
+}
+
+.table-num{
+    background-color: #fff;
+}
+
+.regions-teble-col, .table-header:not(:first-child){
+    display: inline-block;
+    padding: 15px 30px;
+    min-width: 300px;
+}
+
+.regions-teble-col{
+    background-color: #fff;
+}
+
+.regions-square{
+    width: 884px;
+    height: 19px;
+    background-color: var(--primary-orange);
+    margin-top: 52px;
+    margin-bottom: 116px;
+}
+
+.regions-about-wrapper{
+    position: relative;
+}
+
+.regions-title{
+    font-size: 86px;
+    font-family: 'Abel', serif;
+    margin-bottom: 36px;
+}
+
+.regions-img-1{
+    width: 995px;
+    height: 686px;
+}
+
+.regions-squares{
+    display: flex;
+    gap: 33px;
+    position: absolute;
+    top: 30%;
+    right: 0;
+}
+
+.square-red, .square-green, .square-blue, .square-orange{
+    width: 65px;
+    height: 105px;
+}
+
+.square-red{
+    background-color: #F50D62;
+}
+
+.square-green {
+    background-color: #53B9D0;
+}
+
+.square-blue {
+    background-color: #0078FF;
+}
+
+.square-orange {
+    background-color: #EAB801;
+}
+
+.regions-help-btn{
+    width: 240px;
+    height: 72px;
+    background-color: var(--primary-orange);
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    filter: drop-shadow(0px 5px 7px rgba(0, 0, 0, 0.25));
+    margin-bottom: 62px;
+}
+
+.regions-help-btn-icon{
+    width: 43px;
+}
+
+.regions-help-btn-text{
+    width: 97px;
+    display: inline-block;
+    font-family: 'Abel', serif;
+    font-size: 20px;
+}
